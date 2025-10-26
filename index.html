@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>موقع بسيط</title>
+  <style>
+    :root{--bg:#f7f7fb;--card:#fff;--accent:#0b79f7;--text:#222}
+    body{font-family:Segoe UI, Tahoma, Arial, sans-serif;background:var(--bg);color:var(--text);margin:0;padding:2rem;}
+    .container{max-width:800px;margin:0 auto}
+    header{display:flex;align-items:center;gap:1rem}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:#444}
+    .card{background:var(--card);padding:1.25rem;border-radius:10px;box-shadow:0 6px 18px rgba(20,30,50,0.06);margin-top:1rem}
+    a.button{display:inline-block;padding:0.6rem 1rem;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+    footer{margin-top:2rem;color:#666;font-size:0.9rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="24" height="24" rx="6" fill="#0b79f7"/>
+        <path d="M7 12l3 3 7-9" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <h1>مرحبًا بك في موقعي البسيط</h1>
+        <p class="lead">هذه صفحة HTML واحدة فقط — لا مجلدات إضافية.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>نبذة سريعة</h2>
+      <p>هذه صفحة ثابتة بسيطة تبرز كيفية إنشاء صفحة begin.html (index.html) باللغة العربية وباتجاه من اليمين إلى اليسار. يمكنك تحرير هذا الملف لتعديل النص أو الألوان.</p>
+      <p><a class="button" href="#" onclick="alert('مرحبًا! هذه صفحة تجريبية.');return false">جرب زرًا</a></p>
+    </section>
+
+    <footer>
+      ملف: <code>index.html</code> — افتح هذا الملف في متصفحك لعرض الموقع.
+    </footer>
+  </div>
+</body>
+</html>
